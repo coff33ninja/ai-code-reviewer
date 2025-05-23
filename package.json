@@ -1,0 +1,37 @@
+{
+  "name": "gemini-code-reviewer",
+  "version": "1.0.0",
+  "description": "An intelligent code review assistant powered by Gemini. Submit your code snippets and receive automated feedback on quality, best practices, and potential issues.",
+  "type": "module",
+  "scripts": {
+    "start": "echo \"To run locally: 1. Ensure dependencies are met (see package.json). 2. Use a local HTTP server to serve the root directory (e.g., 'npx serve .'). 3. Open index.html in your browser. For local AI, ensure your AI server is running and configured.\"",
+    "dev": "echo \"For a development setup with a bundler (e.g., Vite): vite\" && exit 1",
+    "build": "tsc --noEmit",
+    "lint": "echo \"Linting not yet configured. Consider adding ESLint.\""
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.1",
+    "js-base64": "^3.7.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "ISC",
+  "keywords": [
+    "ai",
+    "code-review",
+    "gemini",
+    "openai",
+    "groq",
+    "ollama",
+    "react",
+    "typescript"
+  ]
+}

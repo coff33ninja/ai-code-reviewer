@@ -1,0 +1,6 @@
+
+{
+  "name": "AI Code Reviewer",
+  "description": "An intelligent code review assistant powered by various AI models. Submit your code snippets and receive automated feedback on quality, best practices, and potential issues.",
+  "requestFramePermissions": []
+}
